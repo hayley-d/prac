@@ -11,7 +11,7 @@ int main()
     arr[0] = pot1;
     arr[1] = pot2;
     arr[2] = pot3;
-    std::string *ptr = &arr;
+    std::string *ptr = arr;
     tome b("Randie's remedies",3,"Randy",ptr);
     /*t = t +"Sight";
     t = t + "Growth";
